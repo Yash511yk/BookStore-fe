@@ -1,13 +1,14 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { Card, Spinner } from 'flowbite-react';
 import { AuthContext } from '../../contexts/AuthProvider';
+import { Server } from "../main"
 
 export default function Shop() {
   const {loading } = useContext(AuthContext);
   const [books, setBooks] = useState([]);
 // fetching data
   useEffect(() =>{
-    fetch('http://localhost:5000/all-books')
+    fetch(`${Server}/all-books`)
     .then(res => res.json())
     .then(data => setBooks(data))
   }, [loading]);

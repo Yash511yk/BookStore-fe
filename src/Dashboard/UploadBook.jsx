@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 import { Button, Checkbox, Label, Select, TextInput, Textarea } from 'flowbite-react';
+import { Server } from '../main';
 
 const UploadBook = () => {
   const bookCategories = [
@@ -55,7 +56,7 @@ const UploadBook = () => {
       bookPDFURL,
     };
     // console.log(dataObj)
-    fetch("http://localhost:5000/upload-book", {
+    fetch(`${Server}/upload-book`, {
       method: "POST",
 
       headers: {
