@@ -23,19 +23,19 @@
   }
   
   .banner-card .swiper-slide:nth-child(2n) {
-    background-image: url('src/assets/banner-books/book2.png');
+    background-image: url('https://ik.imagekit.io/abhishekkumawat/book2.png?updatedAt=1725795373173');
   }
   
   .banner-card .swiper-slide:nth-child(3n) {
-    background-image: url('src/assets/banner-books/book3.png');
+    background-image: url('https://ik.imagekit.io/abhishekkumawat/book3.png?updatedAt=1725795372974');
   }
   
   .banner-card .swiper-slide:nth-child(4n) {
-    background-image: url('src/assets/banner-books/book4.png');
+    background-image: url('https://ik.imagekit.io/abhishekkumawat/book4.png?updatedAt=1725795373003');
   }
   
   .banner-card .swiper-slide:nth-child(5n) {
-    background-image: url('src/assets/banner-books/book5.png');
+    background-image: url('https://ik.imagekit.io/abhishekkumawat/book5.png?updatedAt=1725795373169');
   }
 
   
