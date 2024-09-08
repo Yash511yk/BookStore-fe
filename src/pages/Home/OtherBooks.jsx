@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import BookCards from '../shared/BookCards';
-import { Server } from "../main"
+import { Server } from "../../main";
 
 const OtherBooks = () => {
     const [books, setBooks] = useState([]);

@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { Card, Spinner } from 'flowbite-react';
 import { AuthContext } from '../../contexts/AuthProvider';
-import { Server } from "../main"
+import { Server } from "../../main";
 
 export default function Shop() {
   const {loading } = useContext(AuthContext);
